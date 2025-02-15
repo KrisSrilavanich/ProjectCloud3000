@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michelin Star Restaurant Data Cleaning Code</title>
-    <style>
-        .code-block {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            padding: 10px;
-            font-family: 'Courier New', Courier, monospace;
-        }
-    </style>
-</head>
-<body>
-    <h1>Michelin Star Restaurant Data Cleaning Code</h1>
-    <p>This project processes Michelin star restaurant data and saves cleaned files.</p>
-    <div class="code-block">
-        <pre>
-
 body {
     margin: 0;
     padding: 0;
@@ -109,7 +88,4 @@ footer{
     justify-content: start;
     
 }
-</pre>
-</div>
-</body>
-</html>
+
