@@ -97,14 +97,106 @@ body {
     object-fit: cover; 
 }
 
-footer {
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292F36; 
+    color: #f7fff7;
+    overflow: auto;
+}
+
+#logo {
+    width: 80px; 
+    height: 60px;
+    padding: 0; 
+    margin-left: 15px; 
+}
+
+.topnav {
+    height: 80px;
+    background-color: #21262b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    color: #f7fff7;
+}
+
+.topnav-element {
+    float: left;
+    display: block;
+    text-align: center;
+    margin-right: 10px;
+    color: #f7fff7;
+    text-decoration: none;
+}
+
+.topnav-element:hover {
+    border-bottom: 1px solid #4ecdc4;
+}
+
+#about_us {
+    position: relative;
+}
+
+#office_image{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#about_us_title {
+    position: absolute;
+    top: 30%;   
+    left: 40%; 
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    z-index: 
+}
+#about_us_detail {
+    position: absolute;
+    top: 40%;   
+    left: 43%; 
+   
+    z-index: 
+}
+
+
+
+
+#team_image img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+footer{
     position: sticky;
     bottom: 10;
     width: 100%;
+
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #21262b; /* Ensure full background */
+    padding: 10px 0; /* Adjust spacing */
 }
 
 #footer-container {
+    display: flex;
     justify-content: start;
+    width: 100%; /* Ensure it stretches full width */
+    max-width: 100%; /* Prevent unnecessary restrictions */
+    padding-left: 15px; /* Adjust left padding to align with logo */
 }
     </pre>
 </body>
